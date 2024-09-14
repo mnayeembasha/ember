@@ -38,7 +38,17 @@ body {
 .text-primary:hover{
   text-decoration: underline;
 }
+.table-responsive {
+  overflow-x: auto;
+}
+.table th {
+  vertical-align: top; /* Ensures headers align at the top */
+  text-align: center; /* Centers the text in headers */
+}
 
+.table td {
+  vertical-align: top; /* Centers the text in table cells */
+}
 
   /*Pagination*/
 
